@@ -16,7 +16,7 @@ def getUrl(event: str, x: int, y: int, flags: str, param: list ) -> None:
     if (event == 1):
         if (not param[1]):
             copy(param[0]);
-            print("Url copyed in your clipboard.\n")
+            print("\nUrl copyed in your clipboard.")
         else:
             print("Url already in clipboard")
 
