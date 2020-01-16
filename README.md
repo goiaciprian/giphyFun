@@ -25,7 +25,7 @@ Run ```pip3 install giphyfun --user```
 
 2. cd into the folder and install the package by executing
 
-```cd cheermeup```
+```cd giphyFun```
 
 ```pip3 install . --user```
 
