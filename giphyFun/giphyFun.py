@@ -50,7 +50,7 @@ def playVideo(url: str) -> None:
 
 def main() -> None:
 
-    data = json.loads(urlopen("https://api.giphy.com/v1/gifs/random?api_key=eEh43rHOfGpgGK5Y6wQxxxXy5Ypu3PwB&tag=&rating=G").read())
+    data = json.loads(urlopen("https://api.giphy.com/v1/gifs/random?api_key=<key>&tag=&rating=G").read())
     vidUrl = data['data']['images']['looping']['mp4']
 
     del data
